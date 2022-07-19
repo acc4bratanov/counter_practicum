@@ -10,18 +10,18 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var counterLabel: UILabel!
-    @IBOutlet weak var buttonOutlet: UIButton!
+    @IBOutlet weak var counterButton: UIButton!
     
     var counter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonOutlet.setTitle("Click", for: .normal)
-        buttonOutlet.layer.cornerRadius = 5
+        counterButton.setTitle("Click", for: .normal)
+        counterButton.layer.cornerRadius = 5
         updateCounter()
     }
 
-    @IBAction func buttonDidPress(_ sender: UIButton) {
+    @IBAction func didPressCounterButton(_ sender: UIButton) {
         counter += 1
         updateCounter()
     }

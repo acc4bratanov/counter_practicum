@@ -26,7 +26,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="buttonDidPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="02G-VC-h7F"/>
+                                    <action selector="didPressCounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gdl-R0-9I3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HO3-Ai-TUF">
@@ -41,13 +41,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="buttonOutlet" destination="jtz-zl-NGb" id="6EK-pX-qs1"/>
+                        <outlet property="counterButton" destination="jtz-zl-NGb" id="6EK-pX-qs1"/>
                         <outlet property="counterLabel" destination="HO3-Ai-TUF" id="lFy-Pb-sGe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-715.38461538461536" y="110.90047393364928"/>
+            <point key="canvasLocation" x="-715" y="65"/>
         </scene>
     </scenes>
     <resources>
